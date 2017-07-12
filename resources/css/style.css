@@ -48,17 +48,6 @@ main {
   align-items: center;
 }
 
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 200px;
-}
-
-footer h5 {
-    margin: 10px 0px;
-}
-
 .mission {
   background-image: url('../images/img-mission-background.jpg');
   background-position: center;
@@ -118,6 +107,17 @@ footer h5 {
   flex-direction: column;
   justify-content: space-around;
   opacity: 1;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.contact h5 {
+    margin: 10px 0px;
 }
 
 .copyright {
